@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="604px" viewBox="0 0 1440 604" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Branding</title>
+    <defs>
+        <polygon id="path-1" points="0 0 1440 0 1440 604 715.562299 604 0 604"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(0.000000, -80.000000)">
+            <g id="Branding" transform="translate(0.000000, 80.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle" fill="#8B8176" xlink:href="#path-1"></use>
+                <g id="Group-21" opacity="0.225655692" mask="url(#mask-2)">
+                    <g transform="translate(-706.000000, -418.000000)">
+                        <polygon id="Rectangle" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="472.609106 587.846948 675.095878 330 897.098236 612.11378 1022 1006.22819 680.970826 1071 336 1006.22819"></polygon>
+                        <polyline id="Stroke-3" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" points="683 16 1068 1135 686.530253 1072.44067"></polyline>
+                        <path d="M683,0 C977.764951,129.44486 1330.04743,846.677066 1366,1172.04557 C1179.06805,1371.46551 147.386596,1364.47292 0,1172.04557 C35.9525728,846.677066 388.235049,129.44486 683,0" id="Stroke-5" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <polygon id="Stroke-7" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" points="1366 1172.07563 677.592447 350 0 1172.07563 288.331235 1126.5967 673.990165 1319 1070.45594 1126.5967"></polygon>
+                        <polyline id="Stroke-11" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" points="929.18687 238 672 357.001173 1109.68185 517.998413 1193 976.498586 678.626259 1071"></polyline>
+                        <line x1="1193" y1="972" x2="1305" y2="946" id="Stroke-13" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

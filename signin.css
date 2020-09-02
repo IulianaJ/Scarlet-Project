@@ -1,0 +1,157 @@
+* {
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#headerNav {
+    display: flex;  
+    position: fixed; 
+    width: 100%;
+    z-index: 10;
+    border:1px solid #FCF4EA;
+    background-color:#FCF4EA;
+    line-height: 20px;
+    height: 55px;
+    justify-content: space-around;
+}
+
+#headerNav a {
+    color:black;
+    float: right;
+    padding: 20px;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    line-height: 16px;
+    text-decoration: none;
+    }
+
+
+
+#couplePhoto {
+    height: 700px;
+    width: 550px;
+    padding: 90px 90px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+#gridBody {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: url(../Scarlet/img/Branding.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#ship {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 2px;
+    width: 465px;
+    margin-bottom: 50px;
+    margin-left: 230px;
+}
+
+.shipping {
+    text-emphasis: left;
+    margin-left: 200px;
+    border: 1px solid rgb(231 231 231);
+    border-radius: 15%;
+    height: 500px;
+    width: 550px;
+    padding: 35px 35px;
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    background-color: white;
+}
+
+.shipping p{
+    font-size: 30px;
+    line-height: 35px;
+    width: 465px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+input{
+    margin-left: 120px;
+    border: none;
+    padding: 10px;
+    width: 280px;
+}
+
+
+hr {
+    width: 300px;
+    height: 1px;
+    background-color:rgb(139 129 118);   
+    margin-left: 120px; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+#method {
+    font-size: 15px;
+    line-height: 35px;
+    width: 465px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    text-align: center;
+}
+
+.button5 {
+    border-radius: 14.5px;
+    width: 300px;
+    height: 40px;
+    background-color:rgb(139 129 118);
+    color: white;
+    border: none;
+    outline:0;
+    margin-top: 25px;
+    margin-left: 120px;
+}
+
+
+#roseRing {
+    margin-top: 260px;
+    margin-left: 150px;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 33%;
+    background-color: white;
+    color: rgb(139 129 118);
+    padding: 3%;
+}
+    
+    
+#footer h4{
+    font-size: 16px;
+    line-height: 18.78px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+    
+#footer p {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: lighter;
+}
+    
+

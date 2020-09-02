@@ -1,0 +1,320 @@
+* {
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#headerNav {
+    display: flex;  
+    position: fixed; 
+    width: 100%;
+    z-index: 10;
+    border:1px solid #FCF4EA;
+    background-color:#FCF4EA;
+    font-size: 20px;
+    line-height: 20px;
+    justify-content: space-around;
+    padding: 1%, 10.6%, 1%, 13%;
+}
+
+#logo {
+    margin-top: 7px;
+}
+
+#headerNav a {
+    color:black;
+    float: right;
+    padding: 20px;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+#headerNav input {
+    border-radius: 20px;
+    padding-left: 15px;
+    width: 197px;
+    height: 40px;
+    margin-top: 7px;
+    outline: 0;
+    letter-spacing: 0.93px;
+    line-height: 19px;
+    border: none;
+}
+
+
+
+
+
+
+
+#underHeadear{  
+    display: flex;
+    flex-direction: column;
+    padding: 12%;
+    background-image: url(../Scarlet/img/Branding.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#underHeadear h2{
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 500;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#underHeadear h3{
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 35px;
+    font-weight: lighter;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#underHeadear p{
+    font-size: 16px;
+    line-height: 20px;
+    width: 400px;
+    font-weight: lighter;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#underHeadear .button{
+    background-color: #FFFFFF;
+    color:#232323;
+    border-radius: 14.5px;
+    width: 141px;
+    height: 29px;
+    margin-top: 25px;
+    border: none;
+    outline:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button2 {
+    background-color:rgb(139 129 118);
+    color: white;
+    border-radius: 14.5px;
+    width: 141px;
+    height: 29px;
+    margin-top: 50px;
+    border: none;
+    outline:0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.weddingBands{
+    position: absolute;
+    width: 334px;
+    min-height: auto;
+    margin-top: 130px;
+    margin-bottom: 150px;
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+.discover {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 500;
+
+}
+
+.rings{
+    width: 63%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 300px;
+}
+
+
+.centered {
+    font-size: 25px;
+    padding: 30px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(139 129 118);
+    background-color:rgb(139 129 118);
+    width: 996px;
+    text-align: left;
+    color: white;
+  }
+
+.reinvent{
+    margin-top: 20px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 23.48px;
+    width: 234px;
+    font-weight: lighter;
+    min-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.description{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 25px;
+    width: 400px;
+    font-weight: lighter;
+    text-align: center;
+    min-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 33%;
+    background-color: rgb(139 129 118);
+    color: white;
+    margin-top: 20px;
+    padding: 3%;
+}
+
+
+#footer h4{
+    font-size: 16px;
+    line-height: 18.78px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+#footer p {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+#containerElem {
+    margin: 30px;
+    width: 250px;
+    height: 290px;
+    background-color: white;
+    border: 1px solid rgb(231 231 231);
+    border-radius: 15%;
+    text-align: center;
+}
+
+#containerElem img{
+    width:100px;
+    height:100px;  
+    margin-top: 40px;
+}
+
+#containerElem h2 {
+    font-size: 23px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.button3 {
+    background-color:rgb(139 129 118);
+    color: white;
+    border-radius: 14.5px;
+    width: 141px;
+    height: 29px;
+    margin-top: 40px;
+    border: none;
+    outline:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container {
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+    width: 60%;  
+    margin-left: 345px;
+}
+
+#container1 {
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+    width: 60%;  
+    margin-left: 345px;
+}
+
+hr {
+    width: 100px;
+    height: 1px;
+    background-color:rgb(139 129 118);   
+    margin-left: 780px;
+    margin-bottom: 30px;
+}
+
+
+.fade-in {
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
