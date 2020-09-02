@@ -5,7 +5,7 @@ var form = document.getElementById("log");
 
 console.log(form.childNodes);
 
-var alert = document.createElement("p");
+var alert = document.getElementById("alert");
 form.appendChild(alert);
 var validateEmail = false;
 var validatePassword = false;

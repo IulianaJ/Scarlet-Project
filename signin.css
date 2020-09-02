@@ -27,6 +27,17 @@
 
 
 
+#alert{
+    color: rgb(209, 31, 31);
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+
+
+
 #couplePhoto {
     height: 700px;
     width: 550px;
