@@ -3,32 +3,11 @@
     font-family: 'Raleway', sans-serif;
 }
 
-#headerNav {
-    display: flex;  
-    position: fixed; 
-    width: 100%;
-    z-index: 10;
-    border:1px solid #FCF4EA;
-    background-color:#FCF4EA;
-    line-height: 20px;
-    height: 55px;
-    justify-content: space-around;
-}
-
-#headerNav a {
-    color:black;
-    float: right;
-    padding: 20px;
-    font-size: 12px;
-    letter-spacing: 0.8px;
-    line-height: 16px;
-    text-decoration: none;
-    }
 
 
 #content {
     position: relative;
-    margin-top: 160px;
+    margin-top: 140px;
     margin-left: 100px;
     font-weight: lighter;
     animation-name: content;
@@ -49,7 +28,7 @@
 }
 
 #couplePhoto {
-    height: 700px;
+    height: 750px;
     width: 550px;
     padding: 90px 90px;
     margin-left: 50px;
@@ -88,6 +67,18 @@
     100% {opacity:1;}
     }
     
+
+#content p:nth-child(5) {
+color:rgb(139 129 118);
+}
+
+#content p:nth-child(11){
+    color: rgb(139 129 118);
+}
+
+#content p:nth-child(17){
+    color: rgb(139 129 118);
+}
 
 #footer {
     display: flex;

@@ -3,44 +3,6 @@
     font-family: 'Raleway', sans-serif;
 }
 
-#headerNav {
-    display: flex;  
-    position: fixed; 
-    width: 100%;
-    z-index: 10;
-    border:1px solid #FCF4EA;
-    background-color:#FCF4EA;
-    font-size: 20px;
-    line-height: 20px;
-    justify-content: space-around;
-    padding: 1%, 10.6%, 1%, 13%;
-}
-    
-#logo {
-    margin-top: 7px;
-}
-#headerNav a {
-    color:black;
-    float: right;
-    padding: 20px;
-    font-size: 12px;
-    letter-spacing: 0.8px;
-    line-height: 16px;
-    text-decoration: none;
-}
-    
-#headerNav input {
-    border-radius: 20px;
-    padding-left: 15px;
-    width: 197px;
-    height: 40px;
-    margin-top: 7px;
-    outline: 0;
-    letter-spacing: 0.93px;
-    line-height: 19px;
-    border: none;
-}
-    
 
 
 

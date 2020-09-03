@@ -1,31 +1,37 @@
 var allObjects = [
     {
-        image: "../Scarlet/img/4cb9045ab276e8b9b129cd5e327a4ea1.png",
+        image: "./img/4cb9045ab276e8b9b129cd5e327a4ea1.png",
         title: "Scarlet Duet",
+        name: "scarlet"
     },
 
     {
-        image: "../Scarlet/img/34383-5-silver-ring-photos.png",
+        image: "./img/34383-5-silver-ring-photos.png",
         title: "Calyope",
+        name: "calyope"
     },
 
     {
-        image: "../Scarlet/img/Image_1.png",
+        image: "./img/Image_1.png",
         title: "Calipso",
+        name: "calipso"
     },
 
     {
-        image: "../Scarlet/img/Img_2.png",
+        image: "./img/Img_2.png",
         title: "Fortuna",
+        name: "fortuna"
     },
 
     {
-        image: "../Scarlet/img/Img_4.png",
+        image: "./img/Img_4.png",
         title: "Afrodite",
+        name: "afrodite"
     },
     {
-        image: "../Scarlet/img/Img_5.png",
+        image: "./img/Img_5.png",
         title: "Dyonis",
+        name: "dyonis"
     },
 
 ];
@@ -47,9 +53,10 @@ function showCard(obj, ID) {
     card.appendChild(image);
     card.appendChild(hash);
     document.getElementById(ID).appendChild(card);
-    var button = document.createElement("button");
+    var button = document.createElement("a");
     card.appendChild(button);
     button.setAttribute("class", "button3");
+    button.setAttribute("href", `${obj.name}.html`)
     button.innerText = "View product";
 }
 

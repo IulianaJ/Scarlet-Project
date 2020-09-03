@@ -3,28 +3,6 @@
     font-family: 'Raleway', sans-serif;
 }
 
-#headerNav {
-    display: flex;  
-    position: fixed; 
-    width: 100%;
-    z-index: 10;
-    border:1px solid #FCF4EA;
-    background-color:#FCF4EA;
-    line-height: 20px;
-    height: 55px;
-    justify-content: space-around;
-}
-
-#headerNav a {
-    color:black;
-    float: right;
-    padding: 20px;
-    font-size: 12px;
-    letter-spacing: 0.8px;
-    line-height: 16px;
-    text-decoration: none;
-    }
-
 
 
 #alert{
@@ -32,7 +10,6 @@
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     margin-left: 160px;
-    margin-top: 20px;
 }
 
 
@@ -54,7 +31,7 @@
 #gridBody {
     display: grid;
     grid-template-columns: 50% 50%;
-    background-image: url(../Scarlet/img/Branding.svg);
+    background-image: url(./img/Branding.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -150,29 +127,11 @@ hr {
     height: 400px;
 }
 
-
-
 #footer {
-    display: flex;
-    justify-content: space-evenly;
-    flex-basis: 33%;
     background-color: white;
     color: rgb(139 129 118);
-    padding: 3%;
 }
-    
-    
-#footer h4{
-    font-size: 16px;
-    line-height: 18.78px;
-    font-weight: normal;
-    margin-bottom: 20px;
-}
-    
-#footer p {
-    font-size: 12px;
-    line-height: 20px;
-    font-weight: lighter;
-}
-    
 
+input[type="button"] {
+    cursor: pointer;
+}
