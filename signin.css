@@ -120,6 +120,16 @@ hr {
     text-align: center;
 }
 
+#signIn {
+    font-size: 15px;
+    line-height: 35px;
+    width: 465px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    text-align: center;
+}
+
 .button5 {
     border-radius: 14.5px;
     width: 300px;
@@ -128,8 +138,8 @@ hr {
     color: white;
     border: none;
     outline:0;
-    margin-top: 25px;
     margin-left: 120px;
+    margin-top: 15px;
 }
 
 

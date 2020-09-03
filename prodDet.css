@@ -19,6 +19,7 @@
 #logo {
     margin-top: 7px;
 }
+
 #headerNav a {
     color:black;
     float: right;
@@ -27,6 +28,7 @@
     letter-spacing: 0.8px;
     line-height: 16px;
     text-decoration: none;
+    margin-top: 10px;
 }
     
 #headerNav input {
@@ -34,7 +36,7 @@
     padding-left: 15px;
     width: 197px;
     height: 40px;
-    margin-top: 7px;
+    margin-top: 15px;
     outline: 0;
     letter-spacing: 0.93px;
     line-height: 19px;
