@@ -25,9 +25,6 @@
 
 
 
-
-
-
 #gridBody {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -43,8 +40,9 @@
     line-height: 35px;
     letter-spacing: 2px;
     width: 465px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-left: 230px;
+    margin-top: 30px;
 }
 
 .shipping {
@@ -135,3 +133,5 @@ hr {
 input[type="button"] {
     cursor: pointer;
 }
+
+
