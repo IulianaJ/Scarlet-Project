@@ -1,18 +1,16 @@
 * {
-    margin:0;
+    margin: 0;
     font-family: 'Raleway', sans-serif;
 }
 
 
 
-#alert{
+#alert {
     color: rgb(209, 31, 31);
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     margin-left: 160px;
 }
-
-
 
 
 #couplePhoto {
@@ -59,7 +57,7 @@
     background-color: white;
 }
 
-.shipping p{
+.shipping p {
     font-size: 30px;
     line-height: 35px;
     width: 465px;
@@ -67,7 +65,7 @@
     margin-bottom: 30px;
 }
 
-input{
+input {
     margin-left: 120px;
     border: none;
     padding: 10px;
@@ -78,8 +76,8 @@ input{
 hr {
     width: 300px;
     height: 1px;
-    background-color:rgb(139 129 118);   
-    margin-left: 120px; 
+    background-color: rgb(139 129 118);
+    margin-left: 120px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -109,10 +107,10 @@ hr {
     border-radius: 14.5px;
     width: 300px;
     height: 40px;
-    background-color:rgb(139 129 118);
+    background-color: rgb(139 129 118);
     color: white;
     border: none;
-    outline:0;
+    outline: 0;
     margin-left: 120px;
     margin-top: 15px;
 }
@@ -133,5 +131,3 @@ hr {
 input[type="button"] {
     cursor: pointer;
 }
-
-

@@ -1,5 +1,5 @@
 * {
-    margin:0;
+    margin: 0;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -13,12 +13,17 @@
     animation-name: content;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-  }
-  
-  @keyframes content {
-    0%   {left: -1000px;}
-    100% {left: 0;}
-  }
+}
+
+@keyframes content {
+    0% {
+        left: -1000px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
 
 
 #aboutUs {
@@ -41,42 +46,68 @@
     -moz-animation: fadeIn ease 4s;
     -o-animation: fadeIn ease 4s;
     -ms-animation: fadeIn ease 4s;
-    }
-    @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-    @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-    
-
-#content p:nth-child(5) {
-color:rgb(139 129 118);
 }
 
-#content p:nth-child(11){
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+#content p:nth-child(5) {
     color: rgb(139 129 118);
 }
 
-#content p:nth-child(17){
+#content p:nth-child(11) {
+    color: rgb(139 129 118);
+}
+
+#content p:nth-child(17) {
     color: rgb(139 129 118);
 }
 
@@ -88,15 +119,15 @@ color:rgb(139 129 118);
     color: white;
     padding: 3%;
 }
-    
-    
-#footer h4{
+
+
+#footer h4 {
     font-size: 16px;
     line-height: 18.78px;
     font-weight: normal;
     margin-bottom: 20px;
 }
-    
+
 #footer p {
     font-size: 12px;
     line-height: 20px;
