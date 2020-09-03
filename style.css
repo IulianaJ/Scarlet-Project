@@ -1,9 +1,9 @@
 * {
-    margin:0;
+    margin: 0;
     font-family: 'Raleway', sans-serif;
 }
 
-#underHeadear{  
+#underHeadear {
     display: flex;
     flex-direction: column;
     padding: 12%;
@@ -12,31 +12,31 @@
     background-size: cover;
 }
 
-#underHeadear h2{
+#underHeadear h2 {
     font-size: 30px;
     line-height: 50px;
     font-weight: 500;
-    color:white;
+    color: white;
     margin-left: auto;
     margin-right: auto;
 }
 
-#underHeadear h3{
+#underHeadear h3 {
     font-size: 20px;
     letter-spacing: 4px;
     line-height: 35px;
     font-weight: lighter;
-    color:white;
+    color: white;
     margin-left: auto;
     margin-right: auto;
 }
 
-#underHeadear p{
+#underHeadear p {
     font-size: 16px;
     line-height: 20px;
     width: 400px;
     font-weight: lighter;
-    color:white;
+    color: white;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -45,7 +45,7 @@
 
 .button2 {
     display: block;
-    background-color:rgb(139 129 118);
+    background-color: rgb(139 129 118);
     padding: 5px;
     color: white;
     border-radius: 14.5px;
@@ -53,13 +53,13 @@
     width: 141px;
     margin-top: 40px;
     border: none;
-    outline:0;
+    outline: 0;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
-.weddingBands{
+.weddingBands {
     position: absolute;
     width: 334px;
     min-height: auto;
@@ -78,7 +78,7 @@
     font-weight: 500;
 }
 
-.rings{
+.rings {
     width: 63%;
     margin-left: auto;
     margin-right: auto;
@@ -86,20 +86,7 @@
     height: 300px;
 }
 
-.centered {
-    font-size: 25px;
-    padding: 30px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 1px solid rgb(139 129 118);
-    background-color:rgb(139 129 118);
-    width: 996px;
-    text-align: left;
-    color: white;
-  }
-
-.reinvent{
+.reinvent {
     margin-top: 20px;
     font-size: 20px;
     letter-spacing: 4px;
@@ -112,7 +99,7 @@
     display: block;
 }
 
-.description{
+.description {
     margin-top: 20px;
     font-size: 16px;
     line-height: 25px;
@@ -135,7 +122,7 @@
     padding: 3%;
 }
 
-#footer h4{
+#footer h4 {
     font-size: 16px;
     line-height: 18.78px;
     font-weight: normal;
@@ -143,9 +130,9 @@
 }
 
 #footer p {
-  font-size: 12px;
-  line-height: 20px;
-  font-weight: lighter;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: lighter;
 }
 
 #containerElem {
@@ -158,9 +145,9 @@
     text-align: center;
 }
 
-#containerElem img{
-    width:100px;
-    height:100px;  
+#containerElem img {
+    width: 100px;
+    height: 100px;
     margin-top: 40px;
 }
 
@@ -172,7 +159,7 @@
 
 .button3 {
     display: block;
-    background-color:rgb(139 129 118);
+    background-color: rgb(139 129 118);
     padding: 5px;
     color: white;
     border-radius: 14.5px;
@@ -180,23 +167,23 @@
     width: 141px;
     margin-top: 40px;
     border: none;
-    outline:0;
+    outline: 0;
     margin-left: auto;
     margin-right: auto;
 }
 
 #container {
     display: grid;
-    grid-template-columns:33% 33% 33%;
-    width: 60%;  
+    grid-template-columns: 33% 33% 33%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
 
 #container1 {
     display: grid;
-    grid-template-columns:33% 33% 33%;
-    width: 60%;  
+    grid-template-columns: 33% 33% 33%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -204,7 +191,7 @@
 hr {
     width: 100px;
     height: 1px;
-    background-color:rgb(139 129 118);   
+    background-color: rgb(139 129 118);
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -217,29 +204,54 @@ hr {
     -moz-animation: fadeIn ease 4s;
     -o-animation: fadeIn ease 4s;
     -ms-animation: fadeIn ease 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
     }
-    @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+
+    100% {
+        opacity: 1;
     }
-    
-    @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
     }
-    
-    @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+
+    100% {
+        opacity: 1;
     }
-    
-    @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
     }
-    
-    @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+
+    100% {
+        opacity: 1;
     }
-    
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
