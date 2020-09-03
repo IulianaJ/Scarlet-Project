@@ -2,8 +2,8 @@
     position: fixed;
     width: 100%;
     height: 60px;
-    border:1px solid #FCF4EA;
-    background-color:#FCF4EA;
+    border: 1px solid #FCF4EA;
+    background-color: #FCF4EA;
     z-index: 10;
 }
 
@@ -12,6 +12,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 300px;
+    height: 60px;
 }
 
 .links,
@@ -22,15 +24,15 @@
 }
 
 .links {
-    right: 20px;
+    right: 250px;
 }
 
 .back {
-    left: 180px;
+    left: 250px;
 }
 
 #headerNav a {
-    color:black;
+    color: black;
     padding: 20px;
     font-size: 12px;
     letter-spacing: 0.8px;
@@ -46,15 +48,15 @@
     color: rgb(139 129 118);
     padding: 3%;
 }
-    
-    
-#footer h4{
+
+
+#footer h4 {
     font-size: 16px;
     line-height: 18.78px;
     font-weight: normal;
     margin-bottom: 20px;
 }
-    
+
 #footer p {
     font-size: 12px;
     line-height: 20px;

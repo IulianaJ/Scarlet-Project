@@ -1,27 +1,25 @@
 * {
-    margin:0;
+    margin: 0;
     font-family: 'Raleway', sans-serif;
 }
 
 #headerNav {
-    display: flex;  
-    position: fixed; 
+    display: flex;
+    position: fixed;
     width: 100%;
     z-index: 10;
-    border:1px solid #FCF4EA;
-    background-color:#FCF4EA;
+    border: 1px solid #FCF4EA;
+    background-color: #FCF4EA;
     font-size: 20px;
     line-height: 20px;
     justify-content: space-around;
     padding: 1%, 10.6%, 1%, 13%;
 }
-    
-#logo {
-    margin-top: 7px;
-}
+
+
 
 #headerNav a {
-    color:black;
+    color: black;
     float: right;
     padding: 20px;
     font-size: 12px;
@@ -30,7 +28,7 @@
     text-decoration: none;
     margin-top: 10px;
 }
-    
+
 #headerNav input {
     border-radius: 20px;
     padding-left: 15px;
@@ -42,10 +40,10 @@
     line-height: 19px;
     border: none;
 }
-    
+
 #containerBody {
-display: grid;
-grid-template-columns: 50% 50%;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .bigRing {
@@ -55,12 +53,12 @@ grid-template-columns: 50% 50%;
     margin-top: 100px;
 }
 
-.smallRing{
+.smallRing {
     width: 150px;
     height: 150px;
-    padding: 0px; 
+    padding: 0px;
     margin-left: 110px;
-    border:0px;
+    border: 0px;
     display: inline-block;
 }
 
@@ -79,14 +77,14 @@ grid-template-columns: 50% 50%;
     margin-left: 150px;
 }
 
-.moreDetails p:first-child{
+.moreDetails p:first-child {
     font-size: 30px;
     line-height: 35.22px;
     width: 465px;
     margin: 25px;
 }
 
-.moreDetails p:nth-child(3){
+.moreDetails p:nth-child(3) {
     font-size: 15px;
     letter-spacing: 3px;
     line-height: 17.61px;
@@ -95,7 +93,7 @@ grid-template-columns: 50% 50%;
 
 }
 
-.moreDetails p:nth-child(5){
+.moreDetails p:nth-child(5) {
     font-size: 15px;
     letter-spacing: 3px;
     line-height: 17.61px;
@@ -104,7 +102,7 @@ grid-template-columns: 50% 50%;
 
 }
 
-.moreDetails p:nth-child(8){
+.moreDetails p:nth-child(8) {
     font-size: 20px;
     letter-spacing: 4px;
     line-height: 23.48px;
@@ -113,7 +111,7 @@ grid-template-columns: 50% 50%;
 
 }
 
-.moreDetails p:nth-child(9){
+.moreDetails p:nth-child(9) {
     font-size: 16px;
     line-height: 18.78px;
     width: 436px;
@@ -123,7 +121,7 @@ grid-template-columns: 50% 50%;
 
 .button4 {
     display: block;
-    background-color:rgb(139 129 118);
+    background-color: rgb(139 129 118);
     padding: 10px;
     color: white;
     border-radius: 14.5px;
@@ -132,7 +130,7 @@ grid-template-columns: 50% 50%;
     width: 185px;
     margin-top: 40px;
     border: none;
-    outline:0;
+    outline: 0;
     margin-left: auto;
     margin-right: auto;
 }
@@ -140,8 +138,8 @@ grid-template-columns: 50% 50%;
 hr {
     width: 434px;
     height: 1px;
-    background-color:rgb(139 129 118);   
-    margin-left: 25px; 
+    background-color: rgb(139 129 118);
+    margin-left: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -157,7 +155,7 @@ hr {
     margin-top: 20px;
 }
 
-#footer h4{
+#footer h4 {
     font-size: 16px;
     line-height: 18.78px;
     font-weight: normal;
@@ -165,7 +163,7 @@ hr {
 }
 
 #footer p {
-  font-size: 12px;
-  line-height: 20px;
-  font-weight: lighter;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: lighter;
 }
