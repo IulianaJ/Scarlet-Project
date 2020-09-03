@@ -23,7 +23,7 @@ function verifyEmail() {
             validateEmail = true;
         }
     });
-    if (validateEmail === false) {
+    if (!validateEmail) {
         showErr(userEmail, "Please insert a valid email address");
     } else {
         userEmail.setAttribute("style", "border:3px solid rgb(139 129 118)");
@@ -32,10 +32,10 @@ function verifyEmail() {
 
 function verifyPassword() {
     var passwordLetter = userPassword.value;
-    if (passwordLetter.length > 8) {
+    if (passwordLetter.length > 5) {
         validatePassword = true;
     }
-    if (validatePassword === false) {
+    if (!validatePassword) {
         showErr(userPassword, "The password is too short");
     }
 }
