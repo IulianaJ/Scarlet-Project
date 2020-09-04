@@ -99,16 +99,15 @@
 }
 
 
-#content p:nth-child(5) {
+#content p {
     color: rgb(139 129 118);
 }
 
-#content p:nth-child(11) {
+p:first-letter {
     color: rgb(139 129 118);
-}
-
-#content p:nth-child(17) {
-    color: rgb(139 129 118);
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
 }
 
 #footer {
