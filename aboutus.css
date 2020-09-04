@@ -103,7 +103,7 @@
     color: rgb(139 129 118);
 }
 
-p:first-letter {
+#content p:first-letter {
     color: rgb(139 129 118);
     font-weight: bold;
     font-size: 20px;
